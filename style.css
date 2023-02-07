@@ -147,8 +147,8 @@ body {
   flex: 1 1 45rem;
 }
 .about .row .about-img img {
-  width: 101%;
-  height: 30rem;
+  width: 90%;
+  height: 33rem;
   border-radius: 20px;
 }
 .about .row .content {
@@ -243,7 +243,7 @@ body {
 
 .card {
   cursor: pointer;
-  margin: 60px;
+  margin: 65px;
 }
 .card-image.card2 {
   background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),
@@ -368,6 +368,7 @@ body {
     height: 24rem;
     object-fit: cover;
     object-position: center;
+    width: 100%;
   }
   .about .row .content {
     padding: 0;
@@ -378,6 +379,19 @@ body {
   }
   .about .row .content p {
     font-size: 1.8rem;
+  }
+  .card {
+    margin: 115px;
+    margin-top: 1px;
+  }
+  .card-text p {
+    margin-top: -38px;
+  }
+  .card-text h2 {
+    margin-top: -100px;
+  }
+  .about .row .about-img img {
+    width: 101%;
   }
 }
 
@@ -391,5 +405,11 @@ body {
   }
   .card-text h2 {
     margin-top: -100px;
+  }
+  .about .row .about-img img {
+    width: 101%;
+  }
+  .card {
+    margin: 60px;
   }
 }
